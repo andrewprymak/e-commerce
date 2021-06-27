@@ -22,3 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /.env
+/src/Components/CheckoutForm/Checkout/checkoutignore.jsx
+/src/Components/Cart/cartignore.jsx
