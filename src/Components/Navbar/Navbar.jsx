@@ -17,6 +17,9 @@ const Navbar = ({totalItems}) => {
                         <img src={logo} alt="E-comerce" height="25 px" className={classes.image} />
                         E-commerce
                     </Typography>
+                    <Typography component={Link} to="/about" variant="h6" className={classes.title} color="inherit">
+                        About us
+                    </Typography>
                     <div className={classes.grow}/>
                     {location.pathname === "/" && (
                     <div className={classes.button}>
